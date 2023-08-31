@@ -7,9 +7,10 @@ namespace superheroes
     {
         static void Main(string[] args)
         {
-            Superheroe superheroe1 = new Superheroe("max", 40, 50, 60);
-            Superheroe superheroe2 = new Superheroe("jose", 40, 50, 60);
-            Console.WriteLine("Hello World!");
+            Superheroe superheroe1 = new Superheroe("max", 41, 50, 60);
+            Superheroe superheroe2 = new Superheroe("jose", 42, 50, 60);
+            Console.WriteLine(superheroe1.Ganador(superheroe2));
+
         }
     }
 }
